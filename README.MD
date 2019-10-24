@@ -1,15 +1,21 @@
-# react-native-aes-kit
+# react-native-aes-pack
 
 > AES-CBC-PKCS5Padding
 
-## Install 
+## Install for version >= 0.6,it will auto link library 
 
 ```
-npm i --S react-native-aes-kit
+npm i --S react-native-aes-pack
 
-react-native link react-native-aes-kit
+For iOS run pod install
 ```
+## Install for version <0.6 
 
+```
+npm i --S react-native-aes-pack
+
+react native link react-native-aes-pack
+```
 
 ## methods
 * encrypt
@@ -32,7 +38,7 @@ react-native link react-native-aes-kit
 ## Usage 
 
 ```js
-import AesCrypto from 'react-native-aes-kit';
+import AesCrypto from 'react-native-aes-pack';
 
 const plaintxt = 'test';
 const secretKey = '0102030405060708';
