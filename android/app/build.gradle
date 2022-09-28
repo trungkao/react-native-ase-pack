@@ -18,7 +18,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile files('libs/BASE64Encoder.jar')
-    compile "com.facebook.react:react-native:+"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/BASE64Encoder.jar')
+    implementation "com.facebook.react:react-native:+"
 }
